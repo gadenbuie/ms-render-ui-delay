@@ -22,9 +22,9 @@ ui <- fluidPage(
       "Add tasks using the inputs below.",
       "The task list on the left is generated in R on the server using Shiny,",
       "and the task list on the right is created in the browser using JavaScript.",
-      "Repeatedly adding the same task highlights the delay between the browser",
+      "Repeatedly adding the same task highlights the delay in the browser",
       "to server round trip and the additional computation cost of rendering",
-      "the UI on the server."
+      "the HTML on the server."
     )
   ),
   tags$div(
